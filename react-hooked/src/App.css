@@ -2,38 +2,45 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
+  cursor: pointer;
 }
 
-
-.App-link {
-  color: #09d3ac;
+.spinner {
+  height: 80px;
+  margin: auto;
 }
 
-.movies{
-  display:flex;
+.App-intro {
+  font-size: large;
+}
+
+/* new css for movie component */
+
+* {
+  box-sizing: border-box;
+}
+
+.movies {
+  display: flex;
   flex-wrap: wrap;
-  flex-flow: row;
+  flex-direction: row;
 }
 
-.App-header h2{
+.App-header h2 {
   margin: 0;
 }
 
-
-.add_movies{
+.add-movies {
   text-align: center;
 }
 
@@ -105,8 +112,3 @@ input[type="submit"]:hover {
     margin: auto;
   }
 }
-
-
-
-
-
